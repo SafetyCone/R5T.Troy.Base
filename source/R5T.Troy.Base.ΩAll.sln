@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Troy.Base", "R5T.Troy.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Troy.Base.Construction", "R5T.Troy.Base.Construction\R5T.Troy.Base.Construction.csproj", "{04129ED7-F1A1-4EEF-A825-C58977DC0039}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{A3A96C55-3216-47EB-9E9D-2BBA5D20A38D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{39D71731-9822-4EF4-B65D-A6802F73E73E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{04129ED7-F1A1-4EEF-A825-C58977DC0039}.Release|x64.Build.0 = Release|Any CPU
 		{04129ED7-F1A1-4EEF-A825-C58977DC0039}.Release|x86.ActiveCfg = Release|Any CPU
 		{04129ED7-F1A1-4EEF-A825-C58977DC0039}.Release|x86.Build.0 = Release|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Debug|x64.Build.0 = Debug|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Debug|x86.Build.0 = Debug|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Release|x64.ActiveCfg = Release|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Release|x64.Build.0 = Release|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Release|x86.ActiveCfg = Release|Any CPU
+		{39D71731-9822-4EF4-B65D-A6802F73E73E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39D71731-9822-4EF4-B65D-A6802F73E73E} = {A3A96C55-3216-47EB-9E9D-2BBA5D20A38D}
 	EndGlobalSection
 EndGlobal
